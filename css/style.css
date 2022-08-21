@@ -81,4 +81,8 @@ body {
   clear: both;
   margin-top: -30px;
 }
+
+.navbar-header button.navbar-toggle, .navbar-heade .icon-bar {
+  border: red solid 1px;
+}
 /* END HEADER *
