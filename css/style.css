@@ -13,14 +13,15 @@ body {
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
+  background: url('../image/38f7af9c4e40480d8b84e793a156f3f8\ \(2\).png') no-repeat;
+  width: 200px;
+  height: 175px;
   margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
   padding-top: 25px;
+ 
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -92,9 +93,9 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
+    background: url('../image/38f7af9c4e40480d8b84e793a156f3f8\ \(2\).png') no-repeat;
+    width: 175px;
+    height: 150px;
     margin: 5px 5px 5px 0;
   }
   /* End Header */
