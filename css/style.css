@@ -60,7 +60,7 @@ body {
   background: #E7E7E7;
 }
 #nav-list a span {
-  font-size: 5.8em;
+  font-size: 1.8em;
 }
 
 #phone {
@@ -77,7 +77,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #e4d9dd;
+  border: 5px solid #e4d9dd;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
