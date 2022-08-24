@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #18c746;
+  background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #a119f6;
+  background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
