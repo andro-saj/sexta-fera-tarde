@@ -132,7 +132,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../image/38f7af9c4e40480d8b84e793a156f3f8\ \(2\).png') no-repeat;
+  background: url('../image/') no-repeat;
   background-position: center;
 }
 #specials-tile {
@@ -158,8 +158,8 @@ body {
   position: relative;
   border: 1px solid #3F0C1F;
   overflow: hidden;
-  width: 230px;
-  height: 380px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 15px;
 }
 .category-tile span {
@@ -183,6 +183,58 @@ body {
 }
 /* END MENU CATEGORIES PAGE */
 
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+  width: 80%;
+}
+
+
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+} 
+
+/* END SINGLE CATEGORY PAGE */
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -195,7 +247,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../image/38f7af9c4e40480d8b84e793a156f3f8\ \(2\).png') no-repeat;
+    background: url('../image/a-heder/restaurant-logo_small.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -204,7 +256,7 @@ body {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../image/38f7af9c4e40480d8b84e793a156f3f8\ \(2\).png') no-repeat;
+    background: url('../image/') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -214,7 +266,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../image/38f7af9c4e40480d8b84e793a156f3f8\ \(2\).png') no-repeat;
+    background: url('../image/') no-repeat;
     height: 480px;
   }
   /* End Home Page */
@@ -285,6 +337,14 @@ body {
   #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
+  }
+
+  .menu-item-photo{
+        margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
   }
 }
 
