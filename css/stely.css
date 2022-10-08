@@ -238,7 +238,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../image/a-heder/robot.png') no-repeat;
+    background: url('../image/a-heder/trabalho.jpeg') no-repeat;
     height: 675px;
   }
 }
@@ -255,8 +255,8 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-  .container .jumbotron {
-    background: url('../image/') no-repeat;
+    .container .jumbotron {
+    background: url('../image/a-heder/trabalho.jpeg') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -266,7 +266,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../image/') no-repeat;
+    background: url('../image/a-heder/trabalho.jpeg') no-repeat;
     height: 480px;
   }
   /* End Home Page */
