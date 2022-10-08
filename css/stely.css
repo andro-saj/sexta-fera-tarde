@@ -238,7 +238,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../image/a-heder/trabalho.jpeg') no-repeat;
+    background: url('../image/a-heder/homernovonovo.jpg') no-repeat;
     height: 675px;
   }
 }
