@@ -1,22 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic') ;
-@font-face {
-font-family : 'Julius Sans One';
-font-style : normal;
-font-weight : 400;
-src : url(http://fonts.gstatic.com/s/juliussansone/v14/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsS.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Libre Baskerville';
-font-style : italic;
-font-weight : 400;
-src : url(http://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQCQ.ttf) format('truetype');
-}
-@font-face {
-font-family : 'Libre Baskerville';
-font-style : normal;
-font-weight : 400;
-src : url(http://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxY.ttf) format('truetype');
-}
+
 * {
 box-sizing : border-box;
 }
