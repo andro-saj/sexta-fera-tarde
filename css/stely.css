@@ -1,8 +1,8 @@
 
 body {
     font-size: 16px;
-    color: #fff;
-    background-color: #ff0404;
+    color: #FFFFFF;
+    background-color: #3ADBDB;
     font-family: 'Oxygen', sans-serif;
   }
   
@@ -14,7 +14,7 @@ body {
   }
   
   #logo-img {
-    background: url('../image/a-heder/logo.png') no-repeat;
+    background: url('../image/a-heder/Rlogo.jpg') no-repeat;
     width: 200px;
     height: 200px;
     margin: 10px 15px 10px 0;
@@ -51,7 +51,7 @@ body {
     margin-top: 10px;
   }
   #nav-list a {
-    color: #951C49;
+    color: #3ADBDB;
     text-align: center;
   }
   #nav-list a:hover {
@@ -75,7 +75,7 @@ body {
   }
   
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+    border: 1px solid #3ADBDB;
   }
   .navbar-header button.navbar-toggle {
     clear: both;
@@ -101,7 +101,7 @@ body {
     font-size: 1.3em;
   }
   #address p {
-    color: #557c3e;
+    color: #3ADBDB;
     font-size: .8em;
     line-height: 1.8;
   }
@@ -133,11 +133,11 @@ body {
     box-shadow: 0 1px 5px 1px #cccccc;
   }
   #menu-tile {
-    background: url('../image/a-heder/imagenum.jpg') no-repeat;
+    background: url('../image/a-heder/especial.jpg') no-repeat;
     background-position: center;
   }
   #specials-tile {
-    background: url('../image/a-heder/imagebanca.jpg') no-repeat;
+    background: url('../image/a-heder/especial1.jpg') no-repeat;
     background-position: center;
   }
   #menu-tile span, #specials-tile span, #map-tile span {
@@ -239,7 +239,7 @@ body {
   /********** Large devices only **********/
   @media (min-width: 1200px) {
     .container .jumbotron {
-      background: url('../image/a-heder/imagebanca.jpg') no-repeat;
+      background: url('../image/a-heder/marketing-online.jpg') no-repeat;
       height: 675px;
     }
   }
@@ -248,7 +248,7 @@ body {
   @media (min-width: 992px) and (max-width: 1199px) {
     /* Header */
     #logo-img {
-      background: url('../image/a-heder/restaurant-logo_small.png') no-repeat;
+      background: url('../image/a-heder/Rlogomini.jpg') no-repeat;
       width: 100px;
       height: 100px;
       margin: 5px 5px 5px 0;
@@ -257,7 +257,7 @@ body {
   
     /* Home Page */
       .container .jumbotron {
-      background: url('../image/a-heder/imagebanca.jpg') no-repeat;
+      background: url('../image/a-heder/marketing-online.jpg') no-repeat;
       height: 558px;
     }
     /* End Home Page */
@@ -267,7 +267,7 @@ body {
   @media (min-width: 768px) and (max-width: 991px) {
     /* Home Page */
     .container .jumbotron {
-      background: url('../image/a-heder/imagebanca.jpg') no-repeat;
+      background: url('../image/a-heder/marketing-online3.jpg') no-repeat;
       height: 480px;
     }
     /* End Home Page */
@@ -307,7 +307,7 @@ body {
       padding: 10px;
       border: 2px solid #fff;
       background-color: #f6b319;
-      color: #951c49;
+      color: #3ADBDB;
     }
     #xs-deliver {
       margin-top: 5px;
