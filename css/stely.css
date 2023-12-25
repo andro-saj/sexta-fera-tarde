@@ -137,7 +137,7 @@ body {
   background-position: center;
 }
 #specials-tile {
-  background: url('../image/b/Motocaespecial.jpeg') no-repeat;
+  background: url('../image/b/xre.JPG') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -239,7 +239,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../image/a-heder/motoca-nova1200.jpeg') no-repeat;
+    background: url('../image/a-heder/xre-trem.JPG') no-repeat;
     height: 675px;
   }
 }
@@ -248,7 +248,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../image/a-heder/Rlogomini.jpg') no-repeat;
+    background: url('../image/b/bebidas.jpg') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -257,7 +257,7 @@ h3.menu-item-title {
 
   /* Home Page */
     .container .jumbotron {
-    background: url('../image/a-heder/marketing-online.jpg') no-repeat;
+    background: url('../image/a-heder/xre-tblt-2.JPG') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -267,7 +267,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../image/a-heder/marketing-online3.jpg') no-repeat;
+    background: url('../image/a-heder/xre-tblt.JPG') no-repeat;
     height: 480px;
   }
   /* End Home Page */
