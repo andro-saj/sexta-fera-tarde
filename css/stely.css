@@ -2,19 +2,32 @@
 body {
   font-size: 16px;
   color: #ffffff;
-  background-color: #3ADBDB;
+  background-color: #F4F4F4;
   font-family: 'Oxygen', sans-serif;
 }
+#mainSlid {
+  height: 200px !important;
+  overflow: hidden;
+}
+
+#mainSlid .carousel-inner,
+#mainSlid .item,
+#mainSlid .item img {
+  height: 200px !important;
+  width: 100%;
+  object-fit: cover; /* corta a imagem mantendo proporção */
+}
+
 
 /** HEADER **/
 #header-nav {
-  background-color: #faf9f5;
+  background-color: #1565C0;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('') no-repeat;
+  background: url('../image/b/logogrande.png') no-repeat;
   width: 200px;
   height: 200px;
   margin: 10px 15px 10px 0;
@@ -25,11 +38,11 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #1C1C1E;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  text-shadow: 1px 1px 1px #040404;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -51,11 +64,11 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #3ADBDB;
+  color: #1C1C1E;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #C62828;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -88,7 +101,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #1565C0;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -116,6 +129,33 @@ body {
 
 
 /* HOME PAGE */
+/* Miniaturas */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.carousel-indicators li {
+  width: 40px;
+  height: 2px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.carousel-indicators li.active {
+  border-color: #007bff;
+}
+
+.carousel-indicators img.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
@@ -130,17 +170,18 @@ body {
   overflow: hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px #1C1C1E;
 }
 #menu-tile {
-  background: url('../image/a-heder/carrocaespecial.png') no-repeat;
+  background: url('../image/a-heder/02.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../image/b/xre-especial.JPG') no-repeat;
+  background: url('../image/a-heder/05.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
+ 
   position: absolute;
   bottom: 0;
   right: 0;
@@ -148,8 +189,8 @@ body {
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
+  background-color: #F4F4F4;
+  color: #1C1C1E;
   opacity: .8;
 }
 /* END HOME PAGE */
@@ -157,7 +198,7 @@ body {
 /* MENU CATEGORIES PAGE */
 .category-tile { 
   position: relative;
-  border: 1px solid #3F0C1F;
+  border: 1px solid #96104e;
   overflow: hidden;
   width: 200px;
   height: 200px;
@@ -176,7 +217,7 @@ body {
   opacity: .8;
 }
 .category-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px #d6d4d4;
 }
 
 #menu-categories-title + div {
@@ -212,7 +253,7 @@ body {
   margin-right: -15px;
   margin-left: auto;
   margin-bottom: 20px;
-  max-width: 250px;
+  max-width: 220px;
 }
 
 .menu-item-photo div {
@@ -239,7 +280,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../image/a-heder/xre-trem.JPG') no-repeat;
+    background: url('../image/a-heder/xre-tre.JPG') no-repeat;
     height: 675px;
   }
 }
@@ -248,7 +289,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../image/b/bebidas.jpg') no-repeat;
+    background: url('../image/b/logo.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -257,7 +298,7 @@ h3.menu-item-title {
 
   /* Home Page */
     .container .jumbotron {
-    background: url('../image/a-heder/xre-tblt-2.JPG') no-repeat;
+    background: url('../image/a-heder/xre-tblt-2\ \(2\).jpg') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -267,7 +308,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../image/a-heder/xre-tblt.JPG') no-repeat;
+    background: url('../image/a-heder/xre--tbt).JPG') no-repeat;
     height: 480px;
   }
   /* End Home Page */
@@ -306,7 +347,7 @@ h3.menu-item-title {
     margin: 0 20px;
     padding: 10px;
     border: 2px solid #fff;
-    background-color: #f6b319;
+    background-color: #C62828;
     color: #3ADBDB;
   }
   #xs-deliver {
@@ -373,6 +414,173 @@ h3.menu-item-title {
     float: left;
     width: 100%;
   }
+ 
+
 }
 
+/* cards*/
+/* ====== CARD DE VEÍCULO RESPONSIVO ====== */
+.vehicle-card {
+  background: #fff;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+  width: 100%;
+  max-width: 600px; /* controla o limite em telas grandes */
+  margin: 0 auto;   /* centraliza o card */
+}
 
+/* Efeito de destaque no hover */
+.vehicle-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagem */
+.vehicle-card .card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 4px solid #007bff;
+  transition: transform 0.3s ease;
+}
+
+/* Zoom leve na imagem */
+.vehicle-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Corpo do card */
+.vehicle-card .card-body {
+  padding: 20px;
+}
+
+/* Título */
+.vehicle-card .card-title {
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Texto */
+.vehicle-card .card-text {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  white-space: pre-line;
+  margin-bottom: 20px;
+}
+
+/* Botão */
+.vehicle-card .btn {
+  background: linear-gradient(90deg, #007bff, #00b4d8);
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Hover botão */
+.vehicle-card .btn:hover {
+  background: linear-gradient(90deg, #00b4d8, #007bff);
+  transform: scale(1.05);
+  box-shadow: 0 3px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* ====== MOBILE AJUSTES ====== */
+@media (max-width: 768px) {
+  .vehicle-card {
+    max-width: 95%; /* quase a tela toda */
+    margin: 10px auto;
+  }
+
+  .vehicle-card .card-img-top {
+    height: 250px;
+  }
+
+  .vehicle-card .card-body {
+    padding: 18px;
+  }
+
+  .vehicle-card .card-title {
+    font-size: 1.2rem;
+  }
+
+  .vehicle-card .card-text {
+    font-size: 1rem;
+  }
+}
+
+#valores-termos {
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+}
+
+#valores-termos .card {
+  border-radius: 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#valores-termos .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#valores-termos h4 {
+  border-bottom: 2px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+#valores-termos ul li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+#valores-termos .btn {
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#valores-termos .btn:hover {
+  background-color: #0d6efd;
+  color: white;
+  transform: scale(1.05);
+}
+
+.carousel-control {
+  width: 5%;
+  background: none !important;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.7;
+}
+
+.carousel-control:hover {
+  opacity: 1;
+}
+
+.carousel-control .material-icons {
+  font-size: 36px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .carousel-control .material-icons {
+    font-size: 28px;
+  }
+}
+#map-tile iframe {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
