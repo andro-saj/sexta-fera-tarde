@@ -1,8 +1,8 @@
 
 body {
   font-size: 16px;
-  color: #ffffff;
-  background-color: #F4F4F4;
+  color: #1a1919;
+  background-color: #1d1d1d;
   font-family: 'Oxygen', sans-serif;
 }
 #mainSlid {
@@ -21,7 +21,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #1565C0;
+  background-color: #0f056d;
   border-radius: 0;
   border: 0;
   margin-bottom: 0;
@@ -69,7 +69,7 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  background: #C62828;
+  background: #b80909;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -102,7 +102,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #1565C0;
+  background-color: #0f056d;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -158,8 +158,8 @@ body {
 }
 
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #9e9e9e;
+  border: 2px solid #9e9e9e;
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -167,7 +167,7 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #9e9e9e;
   overflow: hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
