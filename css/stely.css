@@ -280,8 +280,10 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../image/a-heder/xre-tre.JPG') no-repeat;
+    background: url('../image/a-heder/xre-smart.jpg') no-repeat;
     height: 675px;
+    margin-top: 40px;
+    padding: 30px 20px;
   }
 }
 
@@ -317,21 +319,47 @@ h3.menu-item-title {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
+  #phone {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #phone a {
+    display: block;
+    font-size: 1.2em;
+    color: #C62828;
+  }
+
+  #phone div {
+    text-align: center;
+    padding: 5px 0;
+  }
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
+  
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Kosher cert */
+  /*.navbar-brand p { /* Kosher cert 
     font-size: .6em;
     margin-top: 12px;
-  }
-  .navbar-brand p img { /* Star-K */
-    height: 20px;
-  }
+  } */
+   .navbar-brand p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+  .navbar-brand p img {
+  max-height: 20px;
+  width: auto;
+  vertical-align: middle;
+}
+
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
