@@ -311,7 +311,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../image/a-heder/xre--tbt).JPG') no-repeat;
+    background: url('../image/a-heder/destaque-tbt.jpeg') no-repeat;
     height: 480px;
   }
   /* End Home Page */
